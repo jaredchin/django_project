@@ -21,4 +21,3 @@ class Blog(models.Model):
 
 
 
-
