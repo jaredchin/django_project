@@ -68,3 +68,5 @@ def blogs_with_type(request, blog_type_pk):
     context['page_range'] = page_range
     context['blog_types'] = BlogType.objects.all()
     return render_to_response('blog/blogs_with_type.html', context)
+
+
